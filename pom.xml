@@ -26,7 +26,7 @@
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>4.8.0</version>
-
+            <!-- I will use this dependency for Assertion and Run tests -->
         </dependency>
         <dependency>
             <groupId>io.cucumber</groupId>
