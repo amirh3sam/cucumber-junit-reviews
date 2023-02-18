@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features", //same directors az project
         glue = "com/cydeo/step_definitions",//under same directory
         dryRun = false,//false mean run the test true means dont run just give me the methode
-        tags = "@scenarioOutline ",// give tag to library// empty tag="", means run everything
+        tags = "@validLogin",// give tag to library// empty tag="", means run everything
         publish = true //generating a report with public link
 )
 public class CukesRunner {
